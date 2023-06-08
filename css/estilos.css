@@ -1,0 +1,300 @@
+*{padding: 0;
+  margin: 0;  
+}
+
+/*tipografia web */ 
+body { font-family: 'Quicksand', sans-serif; 
+
+}
+
+/* Estilos header */ 
+
+.fondoazul {
+    background-color: rgb(103, 137, 199);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.fondo {
+    background-color: rgb(103, 137, 199);
+    background-repeat: no-repeat;
+    background-size: cover;  
+   
+}  
+
+
+header{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.imge img {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+    padding-top: 100px;
+}
+
+
+.logo img {
+    margin: 0 auto;
+    display: block;
+    width: 80px;
+    padding: 1px 0;   
+}
+
+a, .elnavega .menu .navbar-nav .nav-item .nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    font-size: 16px;
+
+}
+
+ h1{
+ font-size: 40px;
+ text-align: center;
+ font-family: 'Quicksand', sans-serif;
+ font-weight:bolder;
+ padding-bottom: 40px;
+
+}
+
+.elnavega .menu  {
+    list-style: none;
+    justify-content: center;
+    width: 100%;
+
+}
+    
+.elnavega .menu li, .elnavega .menu .navbar-nav .nav-item {
+    color: rgb(12, 11, 11);
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-bottom: 0px;
+    padding: 0 40px;
+}
+
+/*estilos main */ 
+
+.padreimg img{
+    margin: 0 auto;
+    display:block ;
+    width: 600px;
+    padding-top: 20px;
+} 
+
+.contenedortexto {
+    background-color: rgba(182, 182, 182, 0.39);
+    padding: 100px;    
+} 
+.contenedortexto h1{
+  margin-bottom: 50px; 
+  padding-bottom: 10;
+  font-weight: bold;
+  font-size: 50px; 
+} 
+.boxpadre {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+  
+.box {
+padding: 20px;
+text-align: center;
+}
+
+.box img {
+max-width: 100%;
+height: auto;
+}
+
+.titulo {
+margin-top: 10px;
+}
+
+.parrafo {
+margin-top: 10px;
+}
+ .primerparrafo {
+padding-bottom: 15px;
+font-weight: bold;
+}
+
+.quirofa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+.quirofa img {
+max-width: 100%;
+}
+
+.quiro {
+margin-top: 10px;
+}
+
+.quirofa p {
+margin-top: 10px;
+}
+    
+.espacios {
+background-color: rgb(139, 139, 224);
+margin-top: 30px;
+}
+@media screen and (max-width: 768px) {
+    .quirofa img {
+      max-width: 80%;
+    }
+  }
+/*tamaño celular  - 320px -420px -480px (500px) */
+ @media screen and (max-width:500px){
+}
+.quirofa img {
+    max-width: 80%;
+ 
+}
+    label{
+    font-size: 16px;
+}
+
+form{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+form div{   
+    margin-top: 10px;
+}
+
+.ub {
+margin-left: 10px;
+padding-top: 30px;
+height: 30px;
+margin-bottom: 10px;
+}
+
+.co { 
+display: flex;
+
+}
+.contacto {
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+  .cont {
+ margin-left: 10px;
+ padding-top: 50px;
+}
+
+.somos {
+margin-top: 5px;
+text-align: center;
+}
+
+.t {
+padding-right:1100px
+}
+
+.vos {
+padding-right: 800px;
+padding-bottom: 10px;
+}
+
+/* .cards {
+    display:flex; 
+    flex-direction:column; /*para que quede en columna */
+/*     width:100%;
+   margin-bottom: 30px;
+}
+.cards .card div {
+    display:flex; */  /*para que lo que está dentro del div, dentro de card, dentro de cards, se ponga en fila */ */
+
+h1 { 
+    
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.title { 
+margin-top: 20px;
+
+}
+
+.card {
+height: 500px;
+display:flex; 
+flex-direction:column; 
+align-items:center; 
+
+}
+.card div {
+    height: 500px;
+    display:flex; 
+    flex-direction:column; 
+    align-items:center; 
+}
+
+.ortopedi {
+margin-top: 60px;
+padding-bottom: 20px;
+}
+.peri {
+margin-top: 60px;
+padding-bottom: 20px;
+
+}
+
+.endo {
+margin-top: 60px;
+padding-bottom: 20px;
+
+
+}
+.dento{
+margin-top: 60px;
+padding-bottom: 20px;
+
+}
+.tex { 
+width: 300px ;
+height: auto ;
+padding-left: 20px;
+  
+ }
+
+/*-----estructura grid----------*/
+.ubpadre {
+display: grid;
+grid-column-start: 20px;
+}
+/*estilo footer */ 
+
+.piedepagina {
+    background-color: rgb(138, 128, 128);
+    text-align: center;
+    color: white;
+   
+}
+
+.piedepagina h2{
+margin:0;
+font-family: 'Quicksand', sans-serif; 
+font-size: 20px;
+font-weight: bolder;
+
+}
+.piedepagina p{
+    font-family: 'Quicksand', sans-serif; 
+    margin:0;
+font-size: 15px;
+
+}

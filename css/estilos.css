@@ -10,14 +10,14 @@ body { font-family: 'Quicksand', sans-serif;
 /* Estilos header */ 
 
 .fondoazul {
-    background-color: rgb(103, 137, 199);
+    background-color: rgb(19, 80, 194);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
 }
 
 .fondo {
-    background-color: rgb(103, 137, 199);
+    background-color: rgb(19, 80, 194);
     background-repeat: no-repeat;
     background-size: cover;  
    

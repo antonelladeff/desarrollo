@@ -1,7 +1,3 @@
-*{padding: 0;
-  margin: 0;  
-}
-
 /*tipografia web */ 
 body { font-family: 'Quicksand', sans-serif; 
 
@@ -49,19 +45,8 @@ a, .elnavega .menu .navbar-nav .nav-item .nav-link {
     color: white;
 }
 
-p {
-    font-size: 16px;
 
-}
 
- h1{
- font-size: 40px;
- text-align: center;
- font-family: 'Quicksand', sans-serif;
- font-weight:bolder;
- padding-bottom: 40px;
-
-}
 
 .elnavega .menu  {
     list-style: none;
@@ -90,14 +75,61 @@ p {
 .contenedortexto {
     background-color: rgba(182, 182, 182, 0.39);
     padding: 100px;    
-} 
-.contenedortexto h1{
+    
+  } 
+  .primerparrafo {
+    font-weight: bold ;
+   
+ 
+  } 
+ 
+  .contenedortexto h1{
   margin-bottom: 50px; 
-  padding-bottom: 10;
+  padding-bottom: 10px;
   font-weight: bold;
   font-size: 50px; 
-} 
-.boxpadre {
+  text-align: center;
+}
+
+
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width:500px){
+  /* Contenedor principal */
+  .fondoazul {
+    padding: 30px;
+    height: auto;
+  }
+
+
+  .imge {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .contenedortexto {
+  padding: 30px;
+  display: flex; 
+  flex-direction: column;   
+  align-items: center;  
+}
+
+.primerparrafo {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: bold ;
+}
+.contenedortexto h1{
+     margin-bottom: 10px; 
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px; 
+    align-items: center;
+ 
+  }
+}
+
+  .boxpadre {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 20px;
@@ -120,10 +152,6 @@ margin-top: 10px;
 .parrafo {
 margin-top: 10px;
 }
- .primerparrafo {
-padding-bottom: 15px;
-font-weight: bold;
-}
 
 .quirofa {
     display: flex;
@@ -138,6 +166,7 @@ max-width: 100%;
 
 .quiro {
 margin-top: 10px;
+font-weight: bold;
 }
 
 .quirofa p {
@@ -147,6 +176,7 @@ margin-top: 10px;
 .espacios {
 background-color: rgb(58, 70, 240);
 margin-top: 30px;
+text-align: center;
 }
 @media screen and (max-width: 768px) {
     .quirofa img {
@@ -184,50 +214,152 @@ margin-bottom: 10px;
 display: flex;
 
 }
+
+
 .contacto {
-    display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
-  .cont {
- margin-left: 10px;
- padding-top: 50px;
+  display: flex;
 }
 
-.somos {
-margin-top: 5px;
+.contact{
+width: 50%;
+margin-right: 20px;
 text-align: center;
+margin-left: 70px;
+font-weight: bold;
 }
 
-.t {
-padding-right:1100px
+
+.form {
+ display: flex;
+ justify-content: space-around;
+ padding-bottom: 100px;
+ align-items: center;
 }
 
-.vos {
-padding-right: 800px;
-padding-bottom: 10px;
+
+.form section {
+width: 350px;
 }
 
-/* .cards {
-    display:flex; 
-    flex-direction:column; /*para que quede en columna */
-/*     width:100%;
-   margin-bottom: 30px;
+.fo {
+ padding-bottom: 20px;
+  background-color: #5128e6;
+  border: 3px solid rgb(13, 13, 14) ;
+  color:white ;
 }
-.cards .card div {
-    display:flex; */  /*para que lo que está dentro del div, dentro de card, dentro de cards, se ponga en fila */ */
 
-h1 { 
+.mapa {
+width: 100%;
+
+}
+
+
+/* Media query para pantallas de 320px a 500px */
+@media screen and (max-width:500px){
+  .contact{
+    width: 50%;
+    margin-right: 20px;
+    text-align: center;
+    margin-left: 70px;
+    font-weight: bold;
+    }
     
-    font-family: 'Quicksand', sans-serif; 
-    font-size: 20px;
-    font-weight: bolder;
+    
+    .form { 
+    width: 100%;
+    display: inline;
+     justify-content: space-around;
+     padding-bottom: 100px;
+     align-items: center;
+    }
+    
+    
+    .form section {
+    width: 100%
+    }
+    
+    .fo {
+      background-color: #271761;
+
+    }
+
+    .tex {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 20px;
+    text-align: center;
 
 }
-.title { 
-margin-top: 20px;
+ .mapa {
+    width: 100%;
+   }
+
+ 
+  }
+  
+  
+      .somos {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: justify;
+    display: flex; 
+    flex-direction: column;   
+    align-items: center;  
+    
+}
+ 
+
+.t{
+font-weight: bold;
+        margin-top: 4%;
+        margin-bottom: 3%;
+        text-align: center;
+      
+}
+
+.profesionales{
+width: 100vw;
+height: 300px ;
+}
+  
+.title {
+  font-weight: bold;
+        margin-top: 1%;
+        margin-bottom: 3%;
+        text-align: center;
+        font-size: 35px;
+
+      }
+        /* Estilos generales */
+
+/* Estilos para dispositivos móviles con pantalla de 320px a 500px */
+@media screen and (max-width: 500px) {
+.somos {
+ margin-left: 20px;
+text-align: justify;
 
 }
+
+.title {
+  font-weight: bold;
+        margin-top: 4%;
+        margin-bottom: 3%;      
+        text-align: center;
+        font-size: 25px;
+}
+
+.t{
+font-weight: bold;
+        margin-top: 4%;
+        margin-bottom: 3%;   
+        text-align: center;
+        font-size: 20px;
+     
+}
+}
+
 
 .card {
 height: 500px;
@@ -264,26 +396,24 @@ margin-top: 60px;
 padding-bottom: 20px;
 
 }
-.tex { 
+.tx { 
 width: 300px ;
 height: auto ;
 padding-left: 20px;
   
  }
 
-/*-----estructura grid----------*/
-.ubpadre {
-display: grid;
-grid-column-start: 20px;
-}
+
+
+  
 /*estilo footer */ 
 
 .piedepagina {
     background-color: rgb(138, 128, 128);
     text-align: center;
     color: white;
-   
-}
+
+  }
 
 .piedepagina h2{
 margin:0;

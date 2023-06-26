@@ -272,11 +272,10 @@ margin-bottom: 10px;
   @media screen and (max-width:500px){
     .contact{
       width: 50%;
-   
-      text-align: center;
+     text-align: center;
       font-weight: bold;
       margin-top: 10px;
-      margin-left: 120px;
+      
     
       }
       
@@ -301,9 +300,11 @@ margin-bottom: 10px;
       }
   
       .texto {
-        padding-left: 10px;
+       margin-left: 5px;
         text-align: center;
          margin-top: 3px;
+         margin-right: 20px;
+
          }
       
    .mapa {
